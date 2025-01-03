@@ -1,11 +1,11 @@
-name: "♻️ Refactor"
-description: "리팩토링"
-labels: ["refactor"]
+name: "🐛 Bug"
+description: "버그 수정"
+labels: ["bug"]
 body:
   - type: textarea
     attributes:
       label: 📄 설명
-      description: 새로운 기능에 대한 설명을 작성해 주세요.
+      description: 발생한 문제에 대한 설명을 작성해 주세요.
       placeholder: 자세히 적을수록 좋습니다!
     validations:
       required: true
